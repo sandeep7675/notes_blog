@@ -1,0 +1,15 @@
+How to push using two github account on same machine:
+
+git --help
+
+git config --edit   [can use --global or --local]
+
+git config --global --list
+git congig --list( by defualt global)
+
+git config --local credential.helper ""
+
+git config --local user.name sandeep7675
+git config --local user.password   "either password or Personal access tokens"
+
+
