@@ -7,9 +7,17 @@ git config --edit   [can use --global or --local]
 git config --global --list
 git congig --list( by defualt global)
 
+create private repo on github
+git clone http url from github
+
+It will ask for uname and private key
+private key (settting > Developer settings > Personal access tokens and check all the boxes)
+
+#run this command it will reset the uname and password and ask from the user on demand
 git config --local credential.helper ""
 
 git config --local user.name sandeep7675
-git config --local user.password   "either password or Personal access tokens"
+git config --local user.password "either password or Personal access tokens"
+
 
 
